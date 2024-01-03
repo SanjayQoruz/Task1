@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/pages/third_page/third_page.dart';
 
 class CollectionCard extends StatelessWidget {
   @override
@@ -37,15 +38,20 @@ class CollectionCard extends StatelessWidget {
             top: 30,
             right: 15,
             child: Container(
-              width: 30,
-              height: 30,
+              width: 38,
+              height: 38,
               decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(50))),
-              child: const Icon(
-                Icons.favorite_outline,
-                size: 20,
-              ),
+              child:IconButton(
+                 onPressed:()=>{
+                  Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>ThirdPage()))
+                 },
+                 icon: Icon(
+                  Icons.favorite_outline,
+                  size:25,
+                  ),
+              )
             ))
       ],
     );

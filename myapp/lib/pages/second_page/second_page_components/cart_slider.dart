@@ -9,7 +9,7 @@ class CartSlider extends StatefulWidget {
 }
 
 class CartSliderState extends State<CartSlider>{
-     int numberOfItems = 5;
+     int numberOfItems = 10;
      @override
      Widget build(BuildContext context){
           return Flexible(
@@ -39,9 +39,7 @@ class CartSliderState extends State<CartSlider>{
                             child:ListView.builder(
                                   itemCount:5,
                                   itemBuilder: (BuildContext context,int index){
-                                  return  Container(
-                                     child: SingleCard(),
-                                  );
+                                  return  SingleCard();
                             })
                           ),
                       ),

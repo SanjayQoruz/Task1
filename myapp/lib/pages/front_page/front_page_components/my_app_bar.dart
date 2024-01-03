@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// import 'category_compoent.dart';
+
 class MyAppBar extends StatefulWidget implements PreferredSizeWidget {
   const MyAppBar({super.key});
 
@@ -58,6 +60,10 @@ class MyAppBarState extends State<MyAppBar> {
               actions: [
                  IconButton(onPressed: ()=>{}, icon:const Icon(Icons.shopping_bag_outlined,color:Colors.white,))
               ],
+              // bottom: Padding(
+              //   padding: const EdgeInsets.only(bottom: 1.0),
+              //   child: CategoryWidget(),
+              // ),
     );
   }
 }

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import './front_page.dart';
+import 'front_page_components.dart';
 
 class CenterComponent extends StatelessWidget {
   @override

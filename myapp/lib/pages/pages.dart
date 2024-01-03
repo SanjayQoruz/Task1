@@ -1,7 +1,5 @@
+export './front_page/front_page_components/front_page_components.dart';
+export './second_page/second_page_components/second_page_components.dart';
+export './third_page/third_page_component/third_page_component.dart';
+export './second_page/second_page.dart';
 export './front_page/front_page.dart';
-export './second_page/second_page_appbar.dart';
-export './second_page/cart_slider.dart';
-export './third_page/card_carousel.dart';
-export './third_page/payment_card.dart';
-export './third_page/coupon_component.dart';
-export './third_page/bill_component.dart';
